@@ -7,7 +7,7 @@ docker run -it -v /MountPoint --name myalpes alpine sh
 
 cd MountPoint && echo "WARNING: ret pointer is null" >> test.py
 
-docker commit myalpine:v12
+exit
 
 docker export myalpes > myalpine.tar
 
